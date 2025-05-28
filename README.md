@@ -10,16 +10,21 @@
    - [续费](/cloudecosystem/buy/renew.md)
    - [退费](/cloudecosystem/buy/refund.md)
 - 快速上手
-   - [购买镜像](/cloudecosystem/fast/purchaseimage.md)
-- 操作指南
-   - [用户相关](/cloudecosystem/guide/buyerinfo.md)
-      - [购买镜像](/cloudecosystem/guide/buyerinfo.md#购买镜像)
-      - [续费镜像](/cloudecosystem/guide/buyerinfo.md#续费镜像)
-      - [配置变更](/cloudecosystem/guide/buyerinfo.md#配置变更)
-      - [删除退费](/cloudecosystem/guide/buyerinfo.md#删除退费)
-      - [发票引导](/cloudecosystem/guide/buyerinfo.md#发票引导)
-   - [服务商相关](/cloudecosystem/guide/sellerinfo.md)
-      - [入驻流程](/cloudecosystem/guide/sellerinfo.md#入驻流程)
-      - [入驻步骤](/cloudecosystem/guide/sellerinfo.md#入驻步骤)
+   - [购买镜像商品](/cloudecosystem/fast/purchaseimage.md)
+   - [购买非镜像商品](/cloudecosystem/fast/purchase-non-image.md)
+- 用户指南
+   - 购买商品
+      - [购买镜像类商品](/cloudecosystem/guide/buyerinfo.md)
+      - [购买非镜像商品](/cloudecosystem/fast/purchase-non-image.md)
+   - 使用商品
+      - [镜像类商品](/cloudecosystem/guide/use-image.md)
+      - [SaaS类商品](/cloudecosystem/guide/use-saas.md)
+      - [服务类商品](/cloudecosystem/guide/use-service.md)
+- 服务商指南
+   - [服务商入驻](/cloudecosystem/ISVguide/ISV-Onboarding.md)
+   - [商品接入](/cloudecosystem/ISVguide/Product-Onboarding.md)
+      - [镜像类商品](/cloudecosystem/ISVguide/image.md)
+      - [SaaS类商品](/cloudecosystem/ISVguide/saas.md)
+      - [服务类商品](/cloudecosystem/guide/sellerinfo.md)
 - [FAQ](/cloudecosystem/support/faqs.md)
 
