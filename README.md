@@ -22,9 +22,11 @@
       - [服务类商品](/cloudecosystem/guide/use-service.md)
 - 服务商指南
    - [服务商入驻](/cloudecosystem/ISVguide/ISV-Onboarding.md)
-   - [商品接入](/cloudecosystem/ISVguide/Product-Onboarding.md)
-      - [镜像类商品](/cloudecosystem/ISVguide/image.md)
+   - [商品接入]
+      - [镜像类商品](/cloudecosystem/guide/sellerinfo.md)
       - [SaaS类商品](/cloudecosystem/ISVguide/saas.md)
-      - [服务类商品](/cloudecosystem/guide/sellerinfo.md)
+      - [服务类商品](/cloudecosystem/ISVguide/service.md)
+- [FAQ](/cloudecosystem/support/faqs.md)
+
 - [FAQ](/cloudecosystem/support/faqs.md)
 
