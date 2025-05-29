@@ -23,5 +23,5 @@ SaaS 类商品是指由服务商 ISV（Independent Software Vendor）提供的�
 - 线下交付：产品由服务商通过线下方式交付，包括定制安装、配置或现场部署。<br />
 
 
-**服务商**<br />
+### 服务商
 云市场的产品提供方，即服务商 ISV（Independent Software Vendor），可以是提供专业解决方案的商业公司，也可以是在 AI、安全、大数据等领域的开发者或者个人爱好者。服务商利用自身的专业能力和资源，为云市场 UMarketplace 提供各类镜像产品和服务。
