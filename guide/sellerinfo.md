@@ -7,7 +7,7 @@
 已完成入驻云生态 CloudEcosystem的商务沟通，确定接入方式，并正式签署合作协议。
 
 ## 接入流程
-![image.png](/images/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B.png)
+![image.png](/images/sellerinfo-image.png)
 <a name="NfMY5"></a>
 <a name="ftkKc"></a>
 ## 接入步骤
