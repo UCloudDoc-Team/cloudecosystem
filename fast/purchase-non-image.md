@@ -1,6 +1,6 @@
 # 购买非镜像商品
 ## 查找商品
-前往[云生态官网落地页](https://www.ucloud.cn/CloudEcosystem)，查看侧边栏全部产品分类，找到所需商品，点击查看详情。
+前往[云生态官网落地页](https://www.ucloud.cn/cloudecosystem)，查看侧边栏全部产品分类，找到所需商品，点击查看详情。
 
 ![](/cloudecosystem/images/Preview1.png)
 
