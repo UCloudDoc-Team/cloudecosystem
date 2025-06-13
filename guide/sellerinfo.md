@@ -1,11 +1,16 @@
 <a name="Odrj7"></a>
 # 服务商相关
 <a name="dMPpy"></a>
-## 入驻流程
+镜像类商品是由服务商 ISV（Independent Software Vendor）提供的收费镜像及相关服务。通过将应用软件与云资源结合，实现用户对云服务器即开即用。本文介绍服务商在云生态发布镜像类商品的步骤。
+
+## 前置条件
+已完成入驻云生态 CloudEcosystem的商务沟通，确定接入方式，并正式签署合作协议。
+
+## 接入流程
 ![image.png](/images/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B.png)
 <a name="NfMY5"></a>
 <a name="ftkKc"></a>
-## 入驻步骤
+## 接入步骤
 <a name="jTqEL"></a>
 ### 1. 商务洽谈
 可通过工单、在线咨询等方式联系UCloud ，洽谈合作事宜。
