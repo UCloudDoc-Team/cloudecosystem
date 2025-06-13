@@ -8,7 +8,7 @@
 
 
 ## 接入流程
-![](service.png)
+![](/image/sellerinfo-service.png)
 
 
 
