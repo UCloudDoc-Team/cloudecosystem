@@ -6,5 +6,5 @@
 1. 购买镜像商品后，您可登录</font>[云生态控制台](https://console.ucloud.cn/cloudecosystem/)，找到已购买的服务，查看详情页的服务信息。</font>
 2. 等待您的专属服务顾问与您取得联系，为您提供一对一的交付服务。您也可以打开「服务信息」中右上角的 “交付指南”，根据指南内容联系您的专属服务顾问使用商品。</font>
 
-![](/cloudecosystem/images/use-saas.png)
+![](/images/use-saas.png)
 
