@@ -14,7 +14,7 @@
 
 ## 接入步骤</font>
 ### 提交商品接入信息
-[](/Onboarding-service.png)
+![](/images/Onboarding-service.png)
 
 
 
