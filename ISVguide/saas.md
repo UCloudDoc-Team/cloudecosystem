@@ -7,7 +7,8 @@ SaaS 类商品是服务商通过配置的 URL 与云生态做接口调试后，�
 
 
 ## 商品接入
-![](/cloudecosystem/images/saas.png)
+![](/images/saas.png)
+
 
 
 
@@ -21,7 +22,8 @@ SaaS 类商品是服务商通过配置的 URL 与云生态做接口调试后，�
 
 
 **3.提交商品接入信息** <br/>
-[](/cloudecosystem/images/Onboarding-saas.png)
+![](/images/Onboarding-saas.png)
+
 
 
 **4.等待UCloud审核、配置商品** <br/>
