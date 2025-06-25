@@ -13,20 +13,20 @@
 
 
 ## 接入步骤</font>
-### 提交商品接入信息
+### 1.提交商品接入信息
 ![](/images/Onboarding-service.png)
 
 
 
-### 等待UCloud审核、发布商品
+### 2.等待UCloud审核、发布商品
 UCloud 基于服务商提供的商品信息审核、发布。</font>
 
 
 
-### 线上测试
+### 3.线上测试
 商品上线后，您可在云平台检查镜像商品名称、配置、文档等信息是否有误，如有问题可联系UCloud 调整。</font>
 
-### 完成接入
+### 4.完成接入
 当您在</font>[云生态 CloudEcosystem 落地页](https://www.ucloud.cn/cloudecosystem)看到上架商品，测试没有问题，即入驻完成。</font>
 
 
