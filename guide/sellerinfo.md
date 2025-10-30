@@ -31,7 +31,7 @@
 
 ##### step2 进入主机部署业务
 对于从 UCloud 控制台上的Linux基础镜像制作镜像，为了保证镜像的正常使用，在部署自己业务时需要满足以下要求：
-- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/umon/agent) 。 
+- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide) 。 
 - 检查 auditd 进程正常运行。auditd是Linux 审计框架（Linux Audit Framework）的一部分，用于实现系统审计功能。auditd进程负责收集、存储和分析系统的各种事件和日志，以便管理员监视系统的活动并检查安全性问题。
 ```
 ps -ef|grep auditd|grep -v  grep |grep -v '\['
@@ -66,7 +66,7 @@ ps -ef|grep auditd|grep -v  grep |grep -v '\['
 
 ##### step2 进入主机部署业务
 对于从 UCloud 控制台上的Windows基础镜像制作镜像，为了保证镜像的正常使用，在部署自己业务时需要满足以下要求：
-- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/umon/agent) 。 
+- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Windows_Installation_Guide) 。 
 - 不可删除cloudbase-init软件包及其相关服务(如果没有的话可以忽略)。
 - 业务不要强依赖`IP`/`主机名`/`mac地址`等动态信息，因为这些信息在创建新主机时会进行更新。
 - 不要修改系统`virtio`驱动的版本，除非已经明确该版本存在问题。
