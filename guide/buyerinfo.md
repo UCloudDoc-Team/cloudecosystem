@@ -2,7 +2,7 @@
 # 购买镜像类商品
 <a name="QhDUH"></a>
 ## 购买镜像
-如您想详细了解如何购买镜像，请参考 [购买镜像](/fast/purchaseimage)。
+如您想详细了解如何购买镜像，请参考 [购买镜像](/cloudecosystem/fast/purchaseimage.md)。
 <a name="KwypH"></a>
 ## 续费镜像
 **自动续费**<br />当您购买了带有收费镜像的云主机，我们将为您默认开启“自动续费”。<br />如您想详细了解如何配置自动续费，请参考 [自动续费管理](/renew/autorenew) 。<br /><br />**手动续费**<br />以下情况需要您手动续费：
