@@ -184,16 +184,17 @@ rm -f /etc/sysctl.d/99-cloudimg-ipv6.conf
 
 | OS | package |
 | --- | --- |
-| **Rocky 9** | [cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Rocky9.x/cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm) |
-| **Rocky 8** | [cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Rocky8.x/cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm) |
-| **Redhat 8** | [cloud-init-23.4-7.el8.3.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Redhat8/cloud-init-23.4-7.el8.3.ucloud.noarch.rpm) |
-| **Ubuntu 20.04** | [cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu20.04/cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb) |
-| **Ubuntu 22.04** | [cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu22.04/cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb) |
-| **Ubuntu 24.04** | [cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu24.04/cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb) |
-| **CentOS Stream 9** | [cloud-init-23.4-17.el9.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/centos-stream9/cloud-init-23.4-17.el9.ucloud.noarch.rpm) |
-| **CentOS 8.x** | [cloud-init-22.1-8.el8.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS8.x/cloud-init-22.1-8.el8.ucloud.noarch.rpm) |
-| **CentOS 7.x** | [cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS7/cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm) |
-| **CentOS 6.x** | [cloud-init-19.4+11.g158c661c-1.el6.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS6/cloud-init-19.4%2B11.g158c661c-1.el6.noarch.rpm) |
+| **Rocky 9** | [cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Rocky9.x/cloud-init-23.4-7.el9.5.0.3.ucloud.noarch.rpm) |
+| **Rocky 8** | [cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Rocky8.x/cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm) |
+| **Redhat 8** | [cloud-init-23.4-7.el8.3.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Redhat8/cloud-init-23.4-7.el8.3.ucloud.noarch.rpm) |
+| **Ubuntu 20.04** | [cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu20.04/cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb) |
+| **Ubuntu 22.04** | [cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu22.04/cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb) |
+| **Ubuntu 24.04** | [cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu24.04/cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb) |
+| **CentOS Stream 9** | [cloud-init-23.4-17.el9.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/centos-stream9/cloud-init-23.4-17.el9.ucloud.noarch.rpm) |
+| **CentOS 8.x** | [cloud-init-22.1-8.el8.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS8.x/cloud-init-22.1-10.el8.ucloud.noarch.rpm) |
+| **CentOS 7.x** | [cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS7/cloud-init-19.4-7.el7.centos.9.ucloud.x86_64.rpm) |
+| **CentOS 6.x** | [cloud-init-19.4+11.g158c661c-1.el6.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS6/cloud-init-19.4%2B11.g158c661c-1.el6.noarch.rpm) |
+
 
 <a name="qPirL"></a>
 
