@@ -1,11 +1,16 @@
 <a name="Odrj7"></a>
 # 服务商相关
 <a name="dMPpy"></a>
-## 入驻流程
-![image.png](/images/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B.png)
+镜像类商品是由服务商 ISV（Independent Software Vendor）提供的收费镜像及相关服务。通过将应用软件与云资源结合，实现用户对云服务器即开即用。本文介绍服务商在云生态发布镜像类商品的步骤。
+
+## 前置条件
+已完成入驻云生态 CloudEcosystem的商务沟通，确定接入方式，并正式签署合作协议。
+
+## 接入流程
+![image.png](/images/sellerinfo-image.png)
 <a name="NfMY5"></a>
 <a name="ftkKc"></a>
-## 入驻步骤
+## 接入步骤
 <a name="jTqEL"></a>
 ### 1. 商务洽谈
 可通过工单、在线咨询等方式联系UCloud ，洽谈合作事宜。
@@ -26,7 +31,7 @@
 
 ##### step2 进入主机部署业务
 对于从 UCloud 控制台上的Linux基础镜像制作镜像，为了保证镜像的正常使用，在部署自己业务时需要满足以下要求：
-- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/umon/agent) 。 
+- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Linux_Installation_Guide) 。 
 - 检查 auditd 进程正常运行。auditd是Linux 审计框架（Linux Audit Framework）的一部分，用于实现系统审计功能。auditd进程负责收集、存储和分析系统的各种事件和日志，以便管理员监视系统的活动并检查安全性问题。
 ```
 ps -ef|grep auditd|grep -v  grep |grep -v '\['
@@ -61,7 +66,7 @@ ps -ef|grep auditd|grep -v  grep |grep -v '\['
 
 ##### step2 进入主机部署业务
 对于从 UCloud 控制台上的Windows基础镜像制作镜像，为了保证镜像的正常使用，在部署自己业务时需要满足以下要求：
-- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/umon/agent) 。 
+- 安装监控 Agent ，详情请参见 [监控代理](https://docs.ucloud.cn/cloudwatch/uboltagent/UboltAgent_Windows_Installation_Guide) 。 
 - 不可删除cloudbase-init软件包及其相关服务(如果没有的话可以忽略)。
 - 业务不要强依赖`IP`/`主机名`/`mac地址`等动态信息，因为这些信息在创建新主机时会进行更新。
 - 不要修改系统`virtio`驱动的版本，除非已经明确该版本存在问题。
@@ -179,16 +184,17 @@ rm -f /etc/sysctl.d/99-cloudimg-ipv6.conf
 
 | OS | package |
 | --- | --- |
-| **Rocky 9** | [cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Rocky9.x/cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm) |
-| **Rocky 8** | [cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Rocky8.x/cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm) |
-| **Redhat 8** | [cloud-init-23.4-7.el8.3.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/Redhat8/cloud-init-23.4-7.el8.3.ucloud.noarch.rpm) |
-| **Ubuntu 20.04** | [cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu20.04/cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb) |
-| **Ubuntu 22.04** | [cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu22.04/cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb) |
-| **Ubuntu 24.04** | [cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb](https://uhost.cn-bj.ufileos.com/cloud-init/Ubuntu24.04/cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb) |
-| **CentOS Stream 9** | [cloud-init-23.4-17.el9.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/centos-stream9/cloud-init-23.4-17.el9.ucloud.noarch.rpm) |
-| **CentOS 8.x** | [cloud-init-22.1-8.el8.ucloud.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS8.x/cloud-init-22.1-8.el8.ucloud.noarch.rpm) |
-| **CentOS 7.x** | [cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS7/cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm) |
-| **CentOS 6.x** | [cloud-init-19.4+11.g158c661c-1.el6.noarch.rpm](https://uhost.cn-bj.ufileos.com/cloud-init/CentOS6/cloud-init-19.4%2B11.g158c661c-1.el6.noarch.rpm) |
+| **Rocky 9** | [cloud-init-23.4-7.el9.5.0.1.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Rocky9.x/cloud-init-23.4-7.el9.5.0.3.ucloud.noarch.rpm) |
+| **Rocky 8** | [cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Rocky8.x/cloud-init-23.4-7.el8.3.0.1.ucloud.noarch.rpm) |
+| **Redhat 8** | [cloud-init-23.4-7.el8.3.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/Redhat8/cloud-init-23.4-7.el8.3.ucloud.noarch.rpm) |
+| **Ubuntu 20.04** | [cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu20.04/cloud-init_24.1.3-1ubuntu1~20.04.5ucloud_all.deb) |
+| **Ubuntu 22.04** | [cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu22.04/cloud-init_24.1.3-1ubuntu2~22.04.5ucloud_all.deb) |
+| **Ubuntu 24.04** | [cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb](https://uhost-package.cn-bj.ufileos.com/cloud-init/Ubuntu24.04/cloud-init_24.1.3-0ubuntu3.3ucloud_all.deb) |
+| **CentOS Stream 9** | [cloud-init-23.4-17.el9.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/centos-stream9/cloud-init-23.4-17.el9.ucloud.noarch.rpm) |
+| **CentOS 8.x** | [cloud-init-22.1-8.el8.ucloud.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS8.x/cloud-init-22.1-10.el8.ucloud.noarch.rpm) |
+| **CentOS 7.x** | [cloud-init-19.4-7.el7.7.ucloud.x86_64.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS7/cloud-init-19.4-7.el7.centos.9.ucloud.x86_64.rpm) |
+| **CentOS 6.x** | [cloud-init-19.4+11.g158c661c-1.el6.noarch.rpm](https://uhost-package.cn-bj.ufileos.com/cloud-init/CentOS6/cloud-init-19.4%2B11.g158c661c-1.el6.noarch.rpm) |
+
 
 <a name="qPirL"></a>
 

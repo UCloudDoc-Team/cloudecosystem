@@ -1,0 +1,24 @@
+# 购买非镜像商品
+## 查找商品
+前往[云生态官网落地页](https://www.ucloud.cn/cloudecosystem)，查看侧边栏全部产品分类，找到所需商品，点击查看详情。
+
+![](/images/Preview1.png)
+
+![](/images/Preview2.png)
+
+
+
+## 购买商品
+点击“立即购买”，跳转并登录控制台，选择需要的规格等配置。
+
+![](/images/buy.png)
+
+
+
+
+
+## 确认并支持订单
+![](/images/pay.png)
+
+## 查看服务详情
+![](/images/check.png)
